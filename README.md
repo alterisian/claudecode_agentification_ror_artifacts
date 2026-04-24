@@ -5,16 +5,26 @@ Drop them into a new project so Claude Code has opinionated, project-specific gu
 
 ## Usage
 
-Clone this repo into your new project directory:
+### New Rails app (recommended)
+
+Pass the template when creating your app:
 
 ```bash
-git clone https://github.com/your-username/ClaudeCode my-project
-cd my-project
-rm -rf .git
-git init
+rails new myapp -m https://raw.githubusercontent.com/alterisian/claudecode_agentification_ror_artifacts/main/template.rb
 ```
 
-Then start building. Claude Code picks up `CLAUDE.md` from the project root automatically,
+This fetches `CLAUDE.md` and `.claude/` into the new project automatically.
+
+### Manual / existing project
+
+Clone and copy the files into your project root:
+
+```bash
+git clone https://github.com/alterisian/claudecode_agentification_ror_artifacts
+cp -r claudecode_agentification_ror_artifacts/CLAUDE.md claudecode_agentification_ror_artifacts/.claude your-project/
+```
+
+Claude Code picks up `CLAUDE.md` from the project root automatically,
 which imports the supplementary files from `.claude/`.
 
 ## What's included
