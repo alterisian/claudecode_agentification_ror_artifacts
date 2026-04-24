@@ -1,6 +1,9 @@
 @.claude/ruby.md
 @.claude/rails.md
 @.claude/rspec.md
+@.claude/templates/jumpstart.md
+@.claude/templates/suspenders.md
+@.claude/templates/railsbytes.md
 
 # General Claude Code Guidelines
 
