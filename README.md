@@ -25,7 +25,21 @@ CLAUDE.md          # entry point — imports the files below
   rails.md         # Rails conventions: models, migrations, controllers, jobs, security
   ruby.md          # Ruby style, patterns, gem hygiene
   rspec.md         # RSpec structure, FactoryBot, mocking, database cleaner
+  templates/
+    jumpstart.md   # SaaS starter with auth, billing, teams (GoRails)
+    suspenders.md  # thoughtbot's opinionated skeleton
+    railsbytes.md  # composable à la carte templates
 ```
+
+## Choosing a Rails template
+
+Once you've cloned this repo, ask Claude Code to help you pick a starting point:
+
+> "I'm starting a new Rails app. Help me choose the right template."
+
+Claude already has summaries of Jumpstart, Suspenders, and Rails Bytes loaded and will
+ask about your project's needs — auth, billing, deployment target (Fly.io / Heroku), etc. —
+then recommend the best fit.
 
 ## Customising
 
