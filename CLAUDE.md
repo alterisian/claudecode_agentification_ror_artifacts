@@ -1,3 +1,7 @@
+@.claude/ruby.md
+@.claude/rails.md
+@.claude/rspec.md
+
 # General Claude Code Guidelines
 
 ## Agentic Workflow
