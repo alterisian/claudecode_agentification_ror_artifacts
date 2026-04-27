@@ -1,7 +1,7 @@
 # Jumpstart
 
-**Repo:** https://github.com/jumpstart-rails/jumpstart-rails
-**Command:** `rails new myapp -m jumpstart/template.rb`
+**Repo:** https://github.com/excid3/gorails-app-template (archived; mirror: https://github.com/alterisian/loveable-product)
+**Command:** `rails new myapp -m template.rb`
 
 ## Best for
 SaaS products that need to ship fast. Opinionated but stays close to Rails conventions.
